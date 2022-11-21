@@ -1,0 +1,34 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid darkgreen;
+  padding: 4px;
+}
+tr:nth-child(even){background-color: blue;}
+
+tr:hover {background-color: Black;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #70EF49;
+  color:black;
+}
+td{
+     background-color: white;
+     color:Black;
+}
+text{
+  border-radius:20%;
+}
+.idfiltrar{
+background-color:red;
+}
+#idfiltrar{
+  background-color:red;
+  }

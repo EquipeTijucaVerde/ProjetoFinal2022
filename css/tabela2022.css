@@ -1,0 +1,37 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid darkgreen;
+  padding: 4px;
+}
+tr:nth-child(even){background-color: blue;}
+
+tr:hover {background-color: Black;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #70EF49;
+  color:black;
+}
+td{
+     background-color: white;
+     color:Black;
+}
+
+
+.idfiltrar,.nomefiltrar,.emailfiltrar{
+  padding-left: 10px;
+  margin: 6px 2px;
+  outline:0;
+  border-radius: 15px;
+  width:20%;
+	height: 35px;
+border:1px solid black;
+border-radius:5px;
+}

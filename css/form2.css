@@ -1,0 +1,43 @@
+	*{margin:0; padding:0; box-sizing: border-box;}
+	
+	form input[type=text],
+	form input[type=email],
+	form input[type=password]{
+		 width:70%;
+		height: 43px;
+		border: 1px solid #006600;
+		padding-left: 10px;
+		margin: 6px 0;
+		outline:0;
+	    background-color: #FFE6B5;
+	    transform: translate(20%, 40%);
+		border-radius: 15px;
+}
+  input.invalido{
+      border:1px solid red;
+  }
+   form input[type=text]:focus,
+   form input[type=email]:focus,
+	form input[type=password]:focus {
+      background-color: #82b74b;
+}
+	form input[type=submit]{
+		width:50%;
+		height:40px;
+		cursor:pointer;
+		float:right;
+		background: black;
+		margin-top:70px;
+		color: white;
+		border:0;
+		border-radius: 15px;
+	    transform: translate(-50%, -70%);
+	}
+	form input[type=submit]:hover{
+		background: #82b74b;
+		transition: 0.5s;
+	}
+	form input[type=radio],
+	[type=label]{
+		transform: translate(-800%, 430%);
+}
