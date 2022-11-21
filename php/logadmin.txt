@@ -1,0 +1,11 @@
+Renato - INSERT INTO usuarios(nome, email, senha, acesso, status, validador) VALUES('PJNS', 'pj@gmail.com', '$2y$10$K58qflXWgcX2H0WtBBTl0ul3cLF/P.PGplg1OWmTqMLo5ZLYUiS5m', 'Admin','On', 10723842) - 01/09/2022 - 10:34:44
+Renato - INSERT INTO usuarios(nome, email, senha, acesso, status, validador) VALUES('jose', 'jose@gmail.com', '$2y$10$WxImG.QkRD3m61EZu7rLUe4bwtYmuhE.pEcmf4NnQJaL2WudWgQuS', 'Admin','On', 28991722) - 01/09/2022 - 10:35:28
+Renato - INSERT INTO usuarios(nome, email, senha, acesso, status, validador) VALUES('Paulo Victor', 'pv1305@gmail.com', '$2y$10$Zzw77mSG0wsTthy9noA/VOKWV3PHGvcj8qUSYWSEtBCyRn0tUrS0W', 'Admin','On', 45216959) - 01/09/2022 - 10:36:33
+Renato - INSERT INTO usuarios(nome, email, senha, acesso, status, validador) VALUES('suy', 'suyanne@gmail.com', '$2y$10$JtbXB3zDBueM593pC0iXH.QKq01VsQngY7uN7oKFfv7ma99Nb1aEG', 'Admin','On', 38746689) - 01/09/2022 - 10:37:36
+Renato - UPDATE usuarios SET nome='PJNS', email='pj@gmail.com', acesso='Comum', status='On' WHERE id=3 - 01/09/2022 - 11:09:06
+Renato - UPDATE usuarios SET nome='PJNS', email='pj@gmail.com', acesso='Admin', status='On' WHERE id=3 - 01/09/2022 - 11:09:14
+Renato - UPDATE usuarios SET nome='PJNS', email='pj@gmail.com', acesso='Admin', status='On' WHERE id=3 - 01/09/2022 - 11:10:01
+jose - INSERT INTO usuarios(nome, email, senha, acesso, status, validador) VALUES('tryrt', 'ysss@ssss', '$2y$10$gOGguoK49wC0KFkpye7h4.k7kAtf/I9PP4TOE0cB/JbL0wyantfWC', 'Comum','On', 54390059) - 13/09/2022 - 10:49:02
+PJNS - UPDATE usuarios SET nome='suy', email='suyanne@gmail.com', acesso='Admin', status='' WHERE id=6 - 05/10/2022 - 14:10:10
+Thiago - UPDATE usuarios SET nome='PJNaturaS', email='pj@gmail.com', acesso='Admin', status='' WHERE id=3 - 13/10/2022 - 14:55:59
+PJNS - UPDATE usuarios SET nome='PJNS', email='pj@gmail.com', acesso='Admin', status='' WHERE id=3 - 13/10/2022 - 14:56:03
